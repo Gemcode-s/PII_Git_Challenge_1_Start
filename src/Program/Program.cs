@@ -37,6 +37,7 @@ public class Division
    }
 }
 
+//Devuelve el cuadrado
 public class Power
 {
     public static int Squared(int a)
