@@ -8,26 +8,10 @@
         Console.WriteLine(Division.Divide(7, 8));
     }
 }
-public class Addition
+public class Subtraction
 {
-   public static int Add(int a, int b)
+   public static int Subtract(int a, int b)
    {
-       return a + b;
-   }
-}
-
-public class Multiplication
-{
-   public static int Multiply(int a, int b)
-   {
-       return a * b;
-   }
-}
-a
-public class Division
-{
-   public static double Divide(int a, int b)
-   {
-       return (double)a / b;
+       return a - b;
    }
 }
