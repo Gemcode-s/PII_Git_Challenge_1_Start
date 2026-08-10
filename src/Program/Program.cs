@@ -26,7 +26,7 @@ public class Multiplication
 {
    public static int Multiply(int a, int b)
    {
-       return 0; //ERROR a proposito
+       return a * b;
    }
 }
 public class Division
@@ -35,4 +35,12 @@ public class Division
    {
        return (double)a / b;
    }
+}
+
+public class Power
+{
+    public static int Squared(int a)
+    {
+        return a * a;
+    }
 }
